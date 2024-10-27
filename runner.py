@@ -7,8 +7,8 @@ import asyncio
 
 with open('credentials.json') as result:
     credentials = json.load(result)
-    username = credentials["username"]
-    password = credentials["password"]
+    username = credentials["Leadername"]
+    password = credentials["nationpassword"]
     api_key = credentials["api_key"]
     min_cities = credentials["min_cities"]
     target_alliance = credentials["target_alliance"]
